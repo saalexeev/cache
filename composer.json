@@ -1,5 +1,6 @@
 {
-    "name": "saalex/cache",
+    "name": "saalexev/cache",
+    "type": "package",
     "description": "cache implementation for test task",
     "license": "WTFPL",
     "authors": [
