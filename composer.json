@@ -1,0 +1,24 @@
+{
+    "name": "saalex/cache",
+    "description": "cache implementation for test task",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Stanislav Alexeev",
+            "email": "s12630.sa@gmail.com"
+        }
+    ],
+    "require": {
+      "php": "^7.1",
+      "ext-redis": "*",
+      "ext-igbinary": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+  "autoload": {
+    "psr-4": {
+      "TestWorkMax\\": "src/"
+    }
+  }
+}
