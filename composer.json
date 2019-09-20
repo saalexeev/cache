@@ -2,7 +2,7 @@
     "name": "saalexev/cache",
     "type": "package",
     "description": "cache implementation for test task",
-    "license": "WTFPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Stanislav Alexeev",
