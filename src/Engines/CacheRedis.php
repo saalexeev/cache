@@ -22,7 +22,7 @@ class CacheRedis implements CacheInterface
 			$host = $params['host'] ?? self::REDIS_DEFAULT_HOST;
 			$port = $params['port'] ?? self::REDIS_DEFAULT_PORT;
 			$this->instance->pconnect($host, $port);
-			$this->instance->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_IGBINARY);
+			$this->instance->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_PHP);
 		}
 	}
 
