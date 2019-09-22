@@ -11,9 +11,7 @@
     ],
     "require": {
       "php": ">=7.1",
-      "ext-redis": "*",
-      "ext-igbinary": "*"
-    },
+	},
     "require-dev": {
         "phpunit/phpunit": "*"
     },
