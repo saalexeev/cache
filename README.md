@@ -3,7 +3,7 @@
 Использование:
 1. Инициализация: `Cache::init($engine)`.
     #### Варианты $engine:
-    - fileCache.php
+    - file
     - redis
     - memory(массив)
 
